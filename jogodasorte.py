@@ -2,10 +2,10 @@ import time
 import random
 
 print("##################")
-print ("###  BemVindo  ###")
-print (" Jogo do adivinha ")
+print ("###  WELCOME  ###")
+print ("  GUESS GAME  ")
 print ("##################")
-print("Adivinha o número de 1 a 100 que estou a pensar. Veremos se acertas.")
+print("Guess a number 0 to 100 That im thiking. Lets see if you have lucky.")
 
 numero_sorteado = random.randint(0,100)
 tentativas = 5
