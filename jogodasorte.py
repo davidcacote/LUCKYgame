@@ -18,8 +18,7 @@ while tentativas >= 1:
     tentativas = tentativas - 1
     if numero_jogador <= 100:
         if numero_jogador == numero_sorteado:
-            print("""####  JACKPOT  ####
-CONGRATS""")
+            print("""####  JACKPOT  #### CONGRATS""")
             time.sleep(1)
             break
         elif numero_jogador < numero_sorteado:
